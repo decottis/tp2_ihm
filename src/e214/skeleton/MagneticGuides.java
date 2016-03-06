@@ -174,6 +174,7 @@ public class MagneticGuides extends JFrame {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("toto");
 		MagneticGuides guides = new MagneticGuides("Magnetic guides", 600, 600);
 		for (int i = 0; i < 20; ++i)
 			guides.populate();
