@@ -7,9 +7,13 @@ import fr.lri.swingstates.canvas.Canvas;
 
 public class MagneticGuideHorizontal extends MagneticGuide {
 
-	public MagneticGuideHorizontal(Point2D origin, Canvas canvas,
-			CExtensionalTag glTag) {
-		super(0, origin.getY(), 3000, origin.getY(), canvas, glTag);
+	public MagneticGuideHorizontal(Point2D origin, Canvas canvas){
+		super(0, origin.getY(), 3000, origin.getY(), canvas);
+	}
+	
+	@Override
+	public String toString() {
+		return "Horizontal";
 	}
 
 }
